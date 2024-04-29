@@ -1,0 +1,25 @@
+{
+  "name": "rest-api-movies-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start-local": "node --watch server-model-localsystem.js",
+    "start-bd-mysql": "node --watch server-model-mysql.js",
+    "start-mongo": "node --watch server-model-mongodb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.18.2",
+    "mongodb": "6.5.0",
+    "mysql2": "^3.9.2",
+    "postgres": "^3.4.3",
+    "zod": "3.22.4"
+  }
+}
